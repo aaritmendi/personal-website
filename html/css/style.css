@@ -105,7 +105,7 @@ html{
 #home{
   height: 100vh;
   min-height: 500px;
-  background: url(../images/bg.png) no-repeat center;
+  background: url(../images/bg.WebP) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -326,7 +326,7 @@ a.default{
 }
 
 footer{
-  background: url(../images/bg-footer.png) center;
+  background: url(../images/bg-footer.jpg) center;
   color: #fff;
   padding: 30px 0;
   text-align: center;

@@ -3,36 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AARITMENDI - Bienvenido a la página web personal de Adrián Aritmendi. Diseño y produzco aplicaciones web para particulares y empresas, además de ofrecer soporte para páginas ya existentes. "/>
+  <meta name="keywords" content="Adrián Aritmendi, aaritmendi, desarrollador web, personal, Madrid"/>
+  <meta name="author" content="Adrián Aritmendi"/>
+  <meta name="copyright" content="Adrián Aritmendi"/>
   <title>AARITMENDI</title>
+  <link rel="canonical" href="https://aaritmendi.es"/>
   <link rel="icon" href="images/logo.png">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
   <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery-3.5.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/typed-lib.js"></script>
-    <script src="js/typed.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
   <!-- Navbar -->
   <nav class="navbar">
     <div class="inner-width">
-      <a href="#home" class="logo"></a>
+      <a href="#home" title="Inicio" class="logo"></a>
       <button class="menu-toggler">
         <span></span>
         <span></span>
         <span></span>
       </button>
       <div class="navbar-menu">
-        <a href="#home">Inicio</a>
-        <a href="#about">Sobre mi</a>
-        <a href="#contact">Contacto</a>
+        <a href="#home" title="Inicio">Inicio</a>
+        <a href="#about" title="Sobre mi">Sobre mi</a>
+        <a href="#contact" title="Contacto">Contacto</a>
       </div>
     </div>
   </nav>
 
   <!-- Home -->
-  <section id="home" background="images/bg.png">
+  <section id="home">
     <div class="inner-width">
       <div class="content">
 
@@ -41,10 +45,10 @@
         </h1>
 
         <div class="sm">
-          <a href="https://t.me/AAritmendi" class="fab fa-telegram"></a>
-          <a href="https://github.com/aaritmendi" class="fab fa-github"></a>
-          <a href="https://www.instagram.com/aaritmendi_photos/" class="fab fa-instagram"></a>
-          <a href="https://www.linkedin.com/in/adrian-aritmendi-bartolom%C3%A9-3155b4162/?originalSubdomain=es" class="fab fa-linkedin-in"></a>
+          <a href="https://t.me/AAritmendi" title="telegram" class="fab fa-telegram" target="_blank"></a>
+          <a href="https://github.com/aaritmendi" title="github" class="fab fa-github" target="_blank"></a>
+          <a href="https://www.instagram.com/aaritmendi_photos/" title="instagram" class="fab fa-instagram" target="_blank"></a>
+          <a href="https://www.linkedin.com/in/aaritmendi" title="linkedin" class="fab fa-linkedin-in" target="_blank"></a>
         </div>
       </div>
     </div>
@@ -103,7 +107,6 @@
         </div>
       </div>
     </div>
-    </div>
 
   </section>
   <!-- Contacto -->
@@ -113,9 +116,9 @@
       <div class="contact-info">
 
           <div class="item">
-            <a class="default" href="mailto:aaritmendi7 @gmail.com">
+            <a class="default" href="mailto:contacto@aaritmendi.es" title="mail">
             <i class="fas fa-envelope"></i>
-            aaritmendi7
+            Adrián
             </a>
          </div>
         <div class="item">
@@ -126,10 +129,10 @@
     </div>
   </section>
 
-  <footer background="images/bg-footer.png">
+  <footer>
     <div class="inner-width">
       <div class="footer">
-        &copy; 2021 | By AAritmendi
+        &copy; <span id="fecha"></span> | By AAritmendi
       </div>
     </div>
   </footer>

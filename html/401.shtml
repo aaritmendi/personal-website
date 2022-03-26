@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AARITMENDI</title>
+  <link rel="icon" href="images/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/typed-lib.js"></script>
+   <script src="js/typed.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="inner-width">
+      <a href="http://aaritmendi.tk/" class="logo"></a>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <div class="inner-width">
+      <div class="content">
+
+        <h1 class="titulo">
+         Usted no esta autorizado para acceder a esta página, regrese al inicio.
+        </h1>
+
+  </section>
+  <footer>
+    <div class="inner-width">
+      <div class="footer">
+        &copy; 2021 | By AAritmendi
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
