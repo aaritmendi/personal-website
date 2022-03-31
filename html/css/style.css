@@ -124,6 +124,12 @@ html{
 }
 
 #home .content h1{
+  font-size: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+#home .content h2{
   font-size: 60px;
   margin-bottom: 60px;
   padding: 5px;

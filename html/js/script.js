@@ -25,5 +25,13 @@ $(window).scroll(function(){
     $(this).toggleClass("active");
     $(".navbar-menu").toggleClass("active");
   });
+  $('.barra').click(function(){
+    var c = document.getElementById("navbar");
+    c.classList.remove("active");
+    var cb = document.getElementById("navbutton");
+    cb.classList.remove("active");
+
+  });
+
 });
 
